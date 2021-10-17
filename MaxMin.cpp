@@ -2,12 +2,12 @@
 int main()
 {
 	int n,i;
+	int a[100];
 	printf("Enter size of array \n");
 	scanf("%d",&n);
-	int a[n];
 	printf("Enter elements of array \n");
 	for(i=0;i<n;i++)
-	scanf("%d",&a[i]);
+		scanf("%d",&a[i]);
 	int max=a[0],min=a[0];
 	for(i=0;i<n;i++)
 	{
@@ -16,7 +16,7 @@ int main()
 		if(a[i]<min)
 		min=a[i];
 	}
-	printf("Maximim of array is %d \n",max);
-	printf("Minimim of array is %d \n",min);
+	printf("Maximim element in array is %d \n",max);
+	printf("Minimim element in array is %d \n",min);
 	return 0;
 }
