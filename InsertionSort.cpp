@@ -2,7 +2,7 @@
 int main()
 {
     int n,i,temp,j;
-    printf("Enter array length\n");
+    printf("Enter the array length\n");
     scanf("%d",&n);
     int a[n];
     printf("Enter array elements \n");
@@ -19,9 +19,9 @@ int main()
         }
         a[j+1]=temp;
     }
-    printf("After insertion Sort \n");
-    for(int i=0;i<n;i++)
-        printf("%d \n",a[i]);
+    printf("After the insertion Sort \n");
+    for(int j=0;j<n;j++)
+        printf("%d ",a[j]);
     return 0;
 }
 
