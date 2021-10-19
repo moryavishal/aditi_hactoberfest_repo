@@ -22,7 +22,7 @@ int main()
 		p=m;
 	}
 	if(p==-1)
-	printf("%d is not found",x);
+	printf("%d  not found",x);
 	else
-	printf("%d is found",x);
+	printf("%d found",x);
 }
