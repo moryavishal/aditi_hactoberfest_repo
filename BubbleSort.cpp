@@ -19,7 +19,7 @@ int main(){
 		}	
 	}
    }
-   printf("After the sorting process\n");
+   printf("the sorting process\n");
    for(i=0;i<n;i++)
    printf("%d \n",a[i]);
    return 0;
